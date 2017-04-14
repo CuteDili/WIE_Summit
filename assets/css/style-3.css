@@ -439,6 +439,7 @@ h3 {
   z-index: 3;
   outline: 0 !important;
 }
+
 /* Button Top Effect */
 .btn-top:after {
   width: 100%;
