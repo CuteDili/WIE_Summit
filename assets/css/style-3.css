@@ -846,8 +846,8 @@ h3 {
   transition: all 0.4s ease-out;
 }
 .header-nav-2 .navbar-header a img {
-  height: 100px;
-  width: 200px;
+  height: 129px;
+  width: 227px;
   /*margin: auto;*/
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -911,7 +911,7 @@ h3 {
   transition: all 0.4s ease-out;
 }
 .header-nav-2.navbar-home .navbar-header a img {
-  height: 70px;
+  height: 71px;
   padding: 0px;
 }
 .header-nav-2.navbar-home .navbar-header a span {
@@ -921,7 +921,7 @@ h3 {
   margin-top: 0px;
 }
 .header-nav-2.navbar-home .nav li .new-page {
-  color: #fff;
+  color: #914891;
 }
 .header-nav-2.navbar-home .nav li .new-page::after {
   height: 100%;
