@@ -971,14 +971,14 @@ h3 {
  * ==========================
  */
 .header-background {
-  background: url('../images/style-3-bg.jpg');
+  background: url('../images/conference/thumbRNS-MORMON-WOMEN092914a.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center 0;
   background-attachment: fixed;
-  background-repeat: 'no-repeat';
+  background-repeat: no-repeat;
   background-color: #fff;
 }
 .header .section-separator {
