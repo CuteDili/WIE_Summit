@@ -346,8 +346,9 @@ $(function() {
      * =========================================
      */       
     $('.count_down-1').countdown({
-        end_time: "2017/10/21 14:27:28 +0600",
+        end_time: "2017/10/07 14:27:28 +0600",
         wrapper: function(unit){
+          console.log(unit)
             var wrpr = $('<div></div>').
                 addClass(unit.toLowerCase()+'_wrapper').
                 addClass('col-sm-3').
@@ -365,8 +366,9 @@ $(function() {
         }
     });
     $('.count_down-2').countdown({
-        end_time: "2017/10/21 14:27:28 +0600",
+        end_time: "2017/10/07 14:27:28 +0600",
         wrapper: function(unit){
+          console.log(unit)
             var wrpr = $('<div></div>').
                 addClass(unit.toLowerCase()+'_wrapper').
                 addClass('col-sm-3').
