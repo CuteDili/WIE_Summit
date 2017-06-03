@@ -69,6 +69,22 @@
 
         <!-- COLOR SCHEME -->
         <link rel="stylesheet" href="../../assets/css/colors/style-3/purple.css" type="text/css" id="theme-link" />
+        
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+        </script>
 
     </head>
     <body>
@@ -100,12 +116,24 @@
                                     <!--  -->
                                     <li class="section-selector-2"><a href="#header">Home</a></li>
 									
-                                        <li class="section-selector-2 dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><a  >About <b class="caret"></b></a></li>
+                                        <!--<li class="section-selector-2 dropdown-toggle dropdown-start" data-toggle="dropdown" data-hover="dropdown"><a  >About <b class="caret"></b></a></li>
                                             <ul class="dropdown-menu"> 
-                                                <li><a href="http://wie.ieee.org/" target="blank" >Women In Engineering</a></li>
-                                                <li><a href="http://ieeewie.lk/" target="blank">WIE Sri Lanka Section</a></li>
-												<li><a href="#about-wie">IEEE WIE Leadership Summit 2017</a></li>
-                                            </ul>
+                                                <li id="dropdown-menu-li"><a href="http://wie.ieee.org/" target="blank" >Women In Engineering</a></li>
+                                                <li id="dropdown-menu-li"><a href="http://ieeewie.lk/" target="blank">WIE Sri Lanka Section</a></li>
+												<li id="dropdown-menu-li"><a href="#about-wie">IEEE WIE Leadership Summit 2017</a></li>
+                                            </ul>-->
+
+                                            <li class=" dropdown">
+                                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>               
+                                              <ul class="dropdown-menu" role="menu">
+                                                <li><a href="#">Action</a></li>
+                                                <li><a href="#">Another action</a></li>
+                                                <li><a href="#">Something else here</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Separated link</a></li>
+                                              </ul>                
+                                            </li>
+
                                                                                                           
                                     <!--<li class="section-selector-2"><a href="#schedule">Schedule</a></li>-->
                                     <li class="section-selector-2"><a href="#registration">Registration</a></li>
@@ -249,7 +277,7 @@
                                 
                                 <!--<li class="visible-lg">Praesent commodo cursus magna, event landing scelerisque nisl consectetur et.</li> -->
                            <!-- </ul> 
-                        <!-- End: .checklist --> -->
+                        <!-- End: .checklist --> 
 							
 								<p><strong>Summit will span over 2 days from 7-8th October with inspirational and informational addresses by wonderful people, session on Nutrition and exercise, exhibition booths, a car clinic, a career fair, and nevertheless entertainment and even surprises.
 								</strong>
