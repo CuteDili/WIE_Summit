@@ -2850,3 +2850,19 @@ aside .thumbnail {
   position: relative;
   }
 
+@media (min-width: 1200px){
+  #myNavbar {
+    height: 125px;
+  }
+}
+
+#myNavbar {
+  height: 70px;
+}
+
+.about {
+  max-width: 98px;
+}
+.about li a {
+  color: #914891!important;
+}
