@@ -2872,3 +2872,14 @@ aside .thumbnail {
     height: 125px;
   }
 }
+
+@media only screen and (max-width: 767px){
+  #myNavbar {
+    height: 0px;
+  }
+
+  .header-nav-2 .navbar-collapse.in {
+    background-color: white!important;
+  }
+}
+
