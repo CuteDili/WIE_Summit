@@ -846,8 +846,9 @@ h3 {
   transition: all 0.4s ease-out;
 }
 .header-nav-2 .navbar-header a img {
-  height: 120px;
-  margin: auto;
+  height: 129px;
+  width: 227px;
+  /*margin: auto;*/
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
@@ -2832,6 +2833,11 @@ aside .thumbnail {
   -webkit-transform: translate3d(0, 10px, 0);
   transform: translate3d(0, 10px, 0);
 }
+
+#secretary {
+  text-align: left;
+}
+
 
 #finiti-navbar-collapse ul li:hover > ul {
   display:inherit;
