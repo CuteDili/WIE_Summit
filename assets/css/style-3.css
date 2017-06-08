@@ -2861,8 +2861,10 @@ aside .thumbnail {
   color: #914891!important;
 }
 
-<<<<<<< HEAD
-=======
+.mobile-logo {
+  display: none;
+}
+
 @media only screen and (max-width: 990px){
   #myNavbar {
     height: 125px;
@@ -2877,6 +2879,13 @@ aside .thumbnail {
   .header-nav-2 .navbar-collapse.in {
     background-color: white!important;
   }
-}
 
->>>>>>> 025cacbc9cf91701665d8cdc9fa17eeaa4aeda75
+  .img-responsive {
+    display: none;
+  }
+
+  .mobile-logo {
+    display: block;
+    width: 50%;
+  }
+}
